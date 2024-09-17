@@ -11,10 +11,10 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial(){
     exibirTextoNaTela('h1','Jogo do número secreto!' );
-    exibirTextoNaTela('p','Escolha um número entre 1 e 10!');
+    exibirTextoNaTela('p','Escolha um número entre 1 e 50!');
 }
 exibirTextoNaTela('h1','Jogo do número secreto! Tutu e Balão' );
-exibirTextoNaTela('p','Escolha um número entre 1 e 10!');
+exibirTextoNaTela('p','Escolha um número entre 1 e 50!');
 
 function verificarChute() {
     let chute = parseInt(document.querySelector('input').value);
